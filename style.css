@@ -26,7 +26,7 @@ body {
   font-family: Figtree;
 }
 
-#container {
+.container {
   background-color: var(--white);
   border: black solid 0.1rem;
   max-width: 300px;
