@@ -14,12 +14,24 @@
   font-size: 16px;
 }
 
-body {
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: var(--yellow);
   width: 100vw;
   height: 100vh;
   font-size: 16px;
   font-family: Figtree;
+}
+
+main {
+  background-color: var(--white);
+  border: black solid 0.1rem;
+  max-width: 300px;
+  border-radius: 1rem;
+  padding: 1rem;
 }
 
 /*Frontend mentor styles*/
